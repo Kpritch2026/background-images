@@ -3,6 +3,7 @@
 
 body {
 	background-color: black;
+	background-image: url("tile.png");
 	padding: 1rem 3rem;
 }
 
@@ -13,11 +14,16 @@ header {
 	color: white;
 	font-size: 225%;
 	background-color: #aeabab;
+	background-image: url("bkg_header.jpg");
 }
 
 h2 {
 	font-size: 125%;
 	padding: .5rem;
+	background-image: url("c-paw.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
 }
 
 .property {
@@ -25,6 +31,10 @@ h2 {
 	padding: .5rem 1rem;
 	border-radius: 1rem;
 	background-color: #e2e1d2;
+	background-image: url("watermark,png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 75px;
 	font-family: monospace;
 }
 
